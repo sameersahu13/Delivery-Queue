@@ -1,0 +1,370 @@
+    * {
+    font-family: sans-serif;
+}
+
+.nav1 {
+    background-color: #FD7E14 !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 45px;
+}
+
+.navbar-light .navbar-brand {
+    color: rgb(255 255 255 / 90%);
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.area {
+    background-color: white;
+    font-family: sans-serif;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#btn {
+    background-color: blueviolet;
+    height: 38px;
+    width: 110px;
+    align-self: center;
+}
+
+.btn1 {
+    display: flex;
+    margin-top: 29px;
+
+}
+
+.btnn {
+    width: 100px;
+}
+
+#btn2 {
+    background-color: #53A453;
+    height: 38px;
+    width: 110px;
+    align-self: center;
+    font-size: 13px;
+    color: white;
+    border-radius: 5px;
+}
+
+#btn3 {
+    background-color: #9C9595;
+    height: 38px;
+    width: 110px;
+    align-self: center;
+    font-size: 13px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 13px;
+}
+
+.container {
+    display: inline-flex;
+    margin-left: 15px;
+}
+
+.col-3 {
+    width: 92%;
+}
+
+.py-2 {
+    color: #429CD0;
+    font-size: 12px;
+    padding-top: 1.0rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    color: #9C9595;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+
+/* table Start........................................................................*/
+
+.thead-dark {
+    font-size: 14px;
+    background: #429CD0;
+    box-shadow: none;
+    color: #fff;
+    font-size: 12px;
+    height: 45px;
+    font-weight: normal;
+
+}
+
+#tbstud {
+    width: 100%;
+    /* margin: 50px auto; */
+    border-collapse: separate;
+    border-spacing: 2px;
+    box-shadow: 0 1px 4px 0px rgb(0 0 50 / 30%);
+    border-radius: 5px;
+}
+
+.column_heading {
+    background-color: #429CD0;
+    color: #fff;
+    font-weight: normal;
+    height: 45px;
+    line-height: 20px;
+    font-size: 12px;
+    /* padding: 10px; */
+    vertical-align: middle;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.customer_row td {
+    padding: 8px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: sans-serif;
+    height: 36px;
+    font-size: 12px;
+    box-shadow: 0 4px 2px 0px rgb(0 0 50 / 22%);
+
+
+}
+
+.btnc {
+    font-weight: bold;
+    background-color: #FFE7B9;
+}
+
+.btnc1 {
+    font-weight: bold;
+    background-color: #BEEFFF;
+}
+
+.spc {
+    background-color: #CBCBCB !important;
+    border-radius: 5px;
+    height: 76px;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+
+
+/* Down........................................................................ */
+
+
+
+.pagination {
+    padding: 9px 22px;
+}
+
+.pagination2 {
+    padding: 9px 7px 8px;
+    font-weight: normal;
+}
+.pagination3{
+padding: 9px 0px;
+}
+
+.pagination ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 10px 18px;
+    color: #222;
+}
+
+/* ONE */
+
+.p1 a {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.p1 a.is-active {
+    background-color: #4947A4;
+    border-radius: 100%;
+    color: #fff;
+}
+
+/* TWO */
+
+.p2 .is-active li {
+    font-weight: bold;
+    border-bottom: 3px solid #2ecc71;
+}
+
+/* THREE */
+
+.p3 .is-active {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+/* FOUR */
+
+.p4 a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 100%;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    border: 3px solid #2ecc71;
+}
+
+.p4 .is-active:before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #2ecc71;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+/* FIVE */
+
+.p5 a {
+    width: 30px;
+    height: 5px;
+    padding: 0;
+    margin: auto 5px;
+    background-color: rgba(46, 204, 113, 0.4);
+}
+
+.p5 .is-active {
+    background-color: #2ecc71;
+}
+
+/* SIX */
+
+.p6 a {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    padding: 0;
+    margin: auto 5px;
+    text-align: center;
+    position: relative;
+    background-color: rgba(46, 204, 113, 0.4);
+}
+
+.p6 .is-active {
+    background-color: #2ecc71;
+}
+
+/* SEVEN */
+
+.p7 a {
+    border: 3px solid #2ecc71;
+    margin: auto 5px;
+    color: #2ecc71;
+    font-weight: bold;
+}
+
+.p7 .is-active {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+/* EIGHT */
+
+.p8 a {
+    background-color: #2ecc71;
+    margin: auto 5px;
+    color: #fff;
+    font-weight: bold;
+    border: 3px solid #2ecc71;
+}
+
+.p8 .is-active {
+    background-color: #fff;
+    color: #2ecc71;
+}
+
+.trs {
+    color: #429CD0;
+    font-weight: normal;
+}
+
+.btn2{
+    display: flex;
+}
+
+.dropdownMenu2{
+    color: #000;
+    background-color: #ffffff;
+    border-color: #51585e;
+    height: 28px;
+    text-align: center;
+    font-size: 11px;
+    width: 89px;
+}
+.btn5{
+    color: #000;
+    background-color: #ffffff;
+    border-color: #cbcbca00;
+    border-top-color: rgba(203, 203, 202, 0);
+    border-right-color: rgba(203, 203, 202, 0);
+    border-bottom-color: rgba(203, 203, 202, 0);
+    border-left-color: rgba(203, 203, 202, 0);
+    height: 36px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 11px;
+    width: 78px;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#btn4 {
+    background-color: #429CD0;
+    height: 38px;
+    width: 120px;
+    align-self: center;
+    font-size: 13px;
+    color: white;
+    border-radius: 5px;
+}
+
+#btn5 {
+    background-color: #429CD0;
+    height: 38px;
+    width: 132px;
+    align-self: center;
+    font-size: 13px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 13px;
+}
